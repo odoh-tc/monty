@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * f_pint - top print
+ * tank - top print
  * @head: head
  * @x: argument
  * Return: return nothing
 */
-void f_pint(stack_t **head, unsigned int x)
+void tank(stack_t **head, unsigned int x)
 {
 	if (*head == NULL)
 	{
