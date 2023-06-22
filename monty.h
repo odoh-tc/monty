@@ -40,6 +40,7 @@ void tank(stack_t **head, unsigned int x);
 void tenk(stack_t **head, unsigned int x);
 void tink(stack_t **head, unsigned int x);
 void tacks(stack_t **head, unsigned int x);
+void allp(stack_t **head, unsigned int x);
 
 /**
  * struct bus_s - the variables
