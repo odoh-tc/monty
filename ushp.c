@@ -7,7 +7,7 @@
 */
 void ushp(stack_t **head, unsigned int x)
 {
-	int p, i = 0, flag = 0;
+	int n, i = 0, flag = 0;
 
 	if (y.arg)
 	{
@@ -29,7 +29,7 @@ void ushp(stack_t **head, unsigned int x)
 		free(y.content);
 		free_stack(*head);
 		exit(EXIT_FAILURE); }
-	p = atoi(y.arg);
+	n = atoi(y.arg);
 	if (y.lifi == 0)
 		addnode(head, n);
 	else
